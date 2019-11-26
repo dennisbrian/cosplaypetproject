@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Home';
 ?>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->

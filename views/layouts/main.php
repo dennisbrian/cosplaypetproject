@@ -26,8 +26,7 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
-<div class="wrap">
-<?php 
+<div class="wrap"><?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
@@ -35,6 +34,7 @@ AppAsset::register($this);
             'class' => 'navbar navbar-expand-md navbar-dark fixed-top bg-dark',
         ],
     ]);
+
 echo Nav::widget([
         'options' => ['class' => 'navbar-nav ml-auto'],
         'items' => [
@@ -67,7 +67,7 @@ echo Nav::widget([
         ],
     ]);
     NavBar::end();
-?>  
+?>
     <div class="container">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
@@ -75,7 +75,7 @@ echo Nav::widget([
         <?= Alert::widget() ?>
         <main role="main">
             <?= $content ?>
-        </main>            
+        </main>
     </div>
 </div><!-- .wrap -->
 
