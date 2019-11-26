@@ -60,7 +60,7 @@ app\assets\AppAsset::register($this);
         <a href="index3.html" class="brand-link">
             <img src="//via.placeholder.com/50x50" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
                  style="opacity: .8">
-            <span class="brand-text font-weight-light">AdminLTE 3</span>
+            <span class="brand-text font-weight-light">Cosplay Rank</span>
         </a>
 
         <!-- Sidebar -->
@@ -71,7 +71,7 @@ app\assets\AppAsset::register($this);
                     <img src="//via.placeholder.com/128x128" class="img-circle elevation-2" alt="User Image">
                 </div>
                 <div class="info">
-                    <a href="#" class="d-block">Alexander Pierce</a>
+                    <a href="#" class="d-block">User</a>
                 </div>
             </div>
 

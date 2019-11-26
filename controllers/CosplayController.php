@@ -8,6 +8,7 @@ use yii\web\Controller;
 use yii\web\Response;
 use yii\filters\VerbFilter;
 use yii\data\ActiveDataProvider;
+use app\forms\CosplayForm;
 
 
 class CosplayController extends Controller
@@ -33,7 +34,8 @@ class CosplayController extends Controller
 
 	public function actionList()
 	{
-		return $this->render('list');
+		$model = new CosplayForm;
+		return $this->render('list',compact('model'));
 	}
 
 }
